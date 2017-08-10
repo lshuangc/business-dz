@@ -1,0 +1,50 @@
+#recommen {
+    background-color: #fff;
+}
+
+#recommen>.recommen-list>.media {
+    margin-top: 0px;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+#recommen>.recommen-list>.media>.media-left>img {
+    width: 100px;
+    height: 120px;
+}
+
+#recommen>.recommen-list>.media>.media-body>.name {
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+#recommen>.recommen-list>.media>.media-body>.describe {
+    float: left;
+    color: #666;
+    margin-top: 5px;
+    font-size: 14px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+#recommen>.recommen-list>.media>.media-body>.price {
+    font-size: 10px;
+}
+
+#recommen>.recommen-list>.media>.media-body {
+    position: relative;
+}
+
+#recommen>.recommen-list>.media>.media-body>a {
+    height: 40px;
+    bottom: 0;
+    right: 0;
+    background: #dfa60e;
+    font-size: 16px;
+    font-weight: bolder;
+    color: white;
+    position: absolute;
+}

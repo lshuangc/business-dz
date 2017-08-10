@@ -1,0 +1,68 @@
+.iconBox {
+    width: 250px;
+    height: 150px;
+    margin: 10px auto;
+    border: 5px dashed #c8c8c8;
+    background: url(../img/member_logo01.jpg) no-repeat;
+    background-size: 100% 100%;
+    vertical-align:left;
+}
+
+/*#name{*/
+    /*border: 1px solid #cccccc;*/
+    /*width: 50%;*/
+    /*height: 30px;*/
+    /*vertical-align: middle;*/
+    /*font-size: 15px;*/
+    /*line-height: 30px;*/
+    /*text-align: center;*/
+/*}*/
+input{
+    border: 1px solid #cccccc;
+    width: 50%;
+    height: 30px;
+    vertical-align: middle;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+}
+select{
+    border: 1px solid #cccccc;
+    width: 50%;
+    height: 30px;
+    vertical-align: middle;
+    font-size: 15px;
+    line-height: 45px;
+}
+
+h4 {
+    padding: 10px;
+    color: black;
+    font-size: 20px;
+    line-height: 45px;
+    font-weight: bolder;
+    display: inline-block;
+}
+#describe{
+    border: 1px solid #cccccc;
+    width: 50%;
+    height: 200px;
+    vertical-align: middle;
+    font-size: 16px;
+    margin: 10px 5px;
+}
+
+.fuwuhao #publish {
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #ccb05b;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    margin: 0 auto;
+    display: block;
+}

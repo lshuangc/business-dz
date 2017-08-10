@@ -1,0 +1,32 @@
+
+#recommen > .recommen-list > .media {
+  padding: 10px;
+}
+h3{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 40px;
+    line-height: 45px;
+    font-weight: bolder;
+    text-align: center;
+}
+#recommen > .recommen-list > .media > .media-left > img {
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+}
+#recommen > .recommen-list > .media > .media-body{
+  text-align: center;
+    margin: 20px auto;
+}
+#recommen > .recommen-list > .media > .media-body > .price:nth-child(1) {
+  margin-top: 20px;
+  color: #e92322;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+#recommen > .recommen-list > .media > .media-body > .price:nth-child(2){
+  margin-bottom: 10px;
+  font-size: 14px;
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./lib/jquery/jquery.min.js"></script>
+    <title>商务服务</title>
+</head>
+
+<body>
+<div class="fuwuhao">
+    <header id="header">
+        <p>商务服务</p>
+    </header>
+    <div>
+
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs font" role="tablist">
+            <li role="presentation" class="protect" class="active"><a href="#home" aria-controls="home" role="tab"
+                                                                      data-toggle="tab">找项目</a></li>
+            <li role="presentation" class="protect"><a href="#profile" aria-controls="profile" role="tab"
+                                                       data-toggle="tab">找资金</a></li>
+            <!--<li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">找地产</a></li>-->
+        </ul>
+        <div class="city clearfix">
+            <ul>
+                <li>城市:</li>
+                <li><a href="" class="style">全部</a></li>
+                <li><a >上海</a></li>
+                <li><a >南京</a></li>
+                <li><a >南通</a></li>
+                <li><a >江苏</a></li>
+                <li><a >其他</a></li>
+            </ul>
+        </div>
+        <div class="classify clearfix">
+            <ul>
+                <li>分类:</li>
+                <li><a href="">全部</a></li>
+                <li><a href="">住宅</a></li>
+                <li><a href="">商业</a></li>
+                <li><a href="">工业</a></li>
+                <li><a href="">混合</a></li>
+                <li><a href="">其他</a></li>
+            </ul>
+        </div>
+        <div class="project clearfix">
+            <ul>
+                <li>项目:</li>
+                <li><a href="">全部</a></li>
+                <li><a href="">在建工程</a></li>
+                <li><a href="">已建成工程</a></li>
+                <li><a href="">其他</a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+            </ul>
+        </div>
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="home">
+                <section class="recommen">
+                    <div class="recommen-list" id="projectList">
+                        <div class="form-add">
+                            <!--<div id="tip">
+            <span id="x">×</span>
+            <strong></strong>
+        </div>-->
+                        </div>
+                        <div class="media">
+            <a class="media-left" href="./details1.html">
+                <img src="./img/cp1.jpg" alt="...">
+            </a>
+            <div class="media-body">
+                <h5 class="name">A 股单</h5>
+                <span class="describe">A 股单笔交易数量不低于30 万股，或者交易金额不低于200 万元人民币；</span>
+                <p class="price">2万&yen</p>
+                <p class="price">已有200人投标</p>
+                <button><a href="./details1.html">查看</a></button>
+            </div>
+        </div>           
+                    </div>
+                </section>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="profile">
+                <section class="recommen">
+                    <div class="recommen-list" id="moneyList">
+                        <div class="form-add">
+                            <!--<div id="tip">
+            <span id="x">×</span>
+            <strong></strong>
+        </div>-->
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="j_mask" class="mask"></div>
+    <div id="j_formAdd" class="form-add">
+        <div class="form-add-title">
+            <span>投递项目给官方认证资本机构</span>
+            <div id="j_hideFormAdd">x</div>
+        </div>
+        <div class="form-item">
+            <label class="lb" for="j_txtLesson">项目描述：</label>
+            <!--<input class="txt" type="text" id="j_txtLesson" placeholder="请输入姓名">-->
+            <textarea name="content" id="j_txtLesson" class="pop_in pop_area"
+                      placeholder="请简单介绍项目情况、项目优势及融资用途。字数20-500之间。"></textarea>
+        </div>
+        <!--<div class="form-item">
+            <label class="lb" for="j_txtBelSch">联系方式：</label>
+            <input class="txt" type="text" id="j_txtBelSch" value="" placeholder="请输入联系方式">
+        </div>-->
+        <div class="form-submit">
+            <input type="button" value="立即约谈" id="talk">
+        </div>
+    </div>
+
+    <div class="form-add"></div>
+</div>
+<script>
+    function yincang() {
+        $(".form-add").hide();
+        // $("#mask").hide();
+    };
+</script>
+
+<script src="./lib/jquery/jquery.js"></script>
+<script src="./lib/bootstrap/js/bootstrap.js"></script>
+<script src="./js/common/common.js"></script>
+<script src="./js/common/urlscope.js"></script>
+<script src="./js/index.js"></script>
+
+<script>
+    $(".city  li > a").click(function() {
+        $(this).addClass("style").siblings(".city  li > a").removeClass("style");
+    });
+</script>
+</body>
+
+</html>

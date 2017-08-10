@@ -1,0 +1,151 @@
+/*.beijing{
+    background: url(../img/slide_04_2000x410.jpg) no-repeat;
+    width: 100%;
+    height: 200px;
+    
+    background-size: 100% 100%;
+}*/
+#recommen > .recommen-list > .media {
+  padding: 10px;
+}
+h3{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 40px;
+    line-height: 45px;
+    font-weight: bolder;
+    text-align: center;
+}
+#recommen > .recommen-list > .media > .media-left > img {
+  /*width: 400px;*/
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+  /*vertical-align:middle;*/
+}
+#recommen > .recommen-list > .media > .media-body{
+  text-align: center;
+    margin: 20px auto;
+}
+#recommen > .recommen-list > .media > .media-body > .price:nth-child(1) {
+  margin-top: 20px;
+  color: #e92322;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+#recommen > .recommen-list > .media > .media-body > .price:nth-child(2){
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+#recommen > .recommen-list > .media > .media-body > a{
+    display: block;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #dfa60e;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin: 15px auto;
+}
+
+.btnAdd {
+  width: 110px;
+  height: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.form-item {
+  height: 100%;
+  position: relative;
+  padding-left: 80px;
+  padding-right: 10px;
+  margin-bottom: 34px;
+  line-height: 36px;
+}
+
+.form-item > .lb {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 80px;
+  text-align: right;
+}
+
+.form-item > .txt {
+  width: 250px;
+  height: 30px;
+}
+
+.mask {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.15;
+  display: none;
+}
+
+.form-add {
+  top: 30%;
+  left: 50%;
+  margin-left: -174px;
+  padding-bottom: 20px;
+  background: #fff;
+  display: none;
+  position: fixed;
+}
+
+.form-add-title {
+  background-color: #f7f7f7;
+  border-width: 1px 1px 0 1px;
+  border-bottom: 0;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.form-add-title span {
+  width: auto;
+  height: 18px;
+  font-size: 16px;
+  font-family: ËÎÌå;
+  font-weight: bold;
+  color: rgb(102, 102, 102);
+  text-indent: 12px;
+  padding: 8px 0px 10px;
+  margin-right: 10px;
+  display: block;
+  overflow: hidden;
+  text-align: left;
+}
+
+.form-add-title div {
+  width: 16px;
+  height: 20px;
+  position: absolute;
+  right: 10px;
+  top: 6px;
+  font-size: 30px;
+  line-height: 16px;
+  cursor: pointer;
+}
+
+.form-submit {
+  text-align: center;
+}
+
+.form-submit input {
+  width: 100px;
+  height: 32px;
+  background: #dfa60e;
+}
+.fuwuhao{
+  
+}

@@ -1,0 +1,147 @@
+header{
+    background: white;
+    margin-top: 20px;
+    width: 80%;
+    margin: 35px auto;
+    position: relative;
+}
+header .icon_back{
+    background: url("../img/sprites.png") no-repeat;
+    background-size: 200px 200px;
+    left: 0;
+    background-position: -20px 0;
+    width: 20px;
+    height: 25px;
+    position: absolute;
+    padding-left: 12px;
+    padding-top: 10px;
+    top: 0;
+    background-origin: content-box;
+    background-clip: content-box;
+}
+h3{
+    margin-top: 60px;
+    color: black;
+    font-size: 40px;
+    line-height: 45px;
+    font-weight: bolder;
+    text-align: center;
+}
+.phone{
+    width: 80%;
+    margin: 35px auto;
+    position: relative;
+    border-bottom: 1px solid #DDD;
+}
+.phone > ul{
+    display: inline-block;
+    width: 100%;
+}
+.phone > ul > li{
+    float: left;
+}
+.phone > ul > li:nth-child(1){
+    background: url(../img/phone.png) top left no-repeat;    
+    background-size:25px 30px;  
+    background-repeat:no-repeat; 
+    width: 25px;
+    height: 30px;
+    position: absolute;
+    top: 5px;
+    left: 7px;
+}
+.phone > ul > li:nth-child(2){
+    display: inline-block;
+    padding-left: 40px;
+    line-height: 37px;
+    vertical-align:middle;
+    padding-right: 10px;
+}
+/*.phone > ul > li:nth-child(3){
+    width: 1px;
+    height: 20px;
+    background-color: #DDD;
+    padding: 0;
+    margin-top: 9px;
+}*/
+/*.phone > ul > li:nth-child(4) > input{
+	margin: 5px ;
+	margin-top: 12px;
+    margin-left: 10px;
+}*/
+input{
+    border: none;
+    outline: none;
+    resize: none;
+    -webkit-appearance: none;
+    /*width: 100%;*/
+}
+span {
+    display: inline-block;
+    color: red;
+    font-size: 12px;
+}
+.phone>ul>li:nth-child(3){
+    width: 20px;;
+    height:20px;;
+    background: url(../img/pass2.png)no-repeat;
+    background-size: 100% 100%;
+    float: right;
+    margin-top:10px;
+}
+.wrong {
+    color: red
+}
+
+.right {
+    color: green;
+}
+.password{
+    width: 80%;
+    margin: 30px auto;
+    position: relative;
+    border-bottom: 1px solid #DDD;
+}
+.password > ul{
+    width: 100%;
+    display: inline-block;
+}
+.password > ul > li{
+    float: left;
+}
+.password > ul > li:nth-child(1){
+    background: url(../img/mima.png) top left no-repeat;    
+    background-size:22px 26px;  
+    background-repeat:no-repeat; 
+    width: 22px;
+    height: 28px;
+    position: absolute;
+    top: 5px;
+    left: 7px;
+}
+.password > ul > li:nth-child(2) > input{
+	margin: 5px ;
+	margin-top: 12px;
+    margin-left: 40px;
+}
+.password>ul>li:nth-child(3){
+    width: 20px;;
+    height:20px;;
+    background: url(../img/pass2.png) no-repeat;
+    background-size: 100% 100%;
+    float: right;
+    margin-top:10px;
+}
+button{
+    width: 80%;
+    height: 40px;
+    background: #e92322 ;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    border-radius: 10px;
+    /*opacity: 0.7;*/
+    position: relative;
+    margin: 0 auto;
+    display: block;
+}

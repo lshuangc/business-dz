@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--<link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.css">-->
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/register.css">
+    <title>重置密码</title>
+</head>
+
+<body>
+    <div class="fuwuhao">
+        <header>
+            <a href="./login.html" class="icon_back"></a>
+        </header>
+        <h3>重置密码</h3>
+        <div class="phone">
+            <ul>
+                <li></li>
+                <!--<li>+86</li>
+            <li></li>-->
+                <li>
+                    <input type="tel" name="telPhone" id="phoneInput" autocomplete placeholder="请输入电话号码"></li>
+                <li class="pass1"></li>
+            </ul>
+        </div>
+        <div class="password">
+            <ul>
+                <li></li>
+                <li>
+                    <input type="tel" name="telPhone" id="passwordInput" autocomplete placeholder="请输入密码"></li>
+                <li class="pass2"></li>
+            </ul>
+        </div>
+        <div class="form-add">
+            <!--<div id="tip">
+                <span id="x">×</span>
+                <strong></strong>
+            </div>-->
+        </div>
+        <div class="password">
+            <ul>
+                <li></li>
+                <li>
+                    <input type="tel" name="telPhone" id="password2Input" autocomplete placeholder="请确认密码"><span id="tishi"></span></li>
+                <li class="pass3"></li>
+            </ul>
+        </div>
+        <button id="retrieve">提交</button>
+
+    </div>
+ <script>
+        function yincang() {
+            $(".form-add").hide();
+            // $("#mask").hide();
+        };
+    </script>
+    <script src="./lib/jquery/jquery.js"></script>
+    <script src="./lib/bootstrap/js/bootstrap.js"></script>
+    <script src="./js/common/common.js"></script>
+    <script src="./js/common/urlscope.js"></script>
+    <script src="./js/retrieve.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
+    <!--<link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.css">-->
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/register.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <script src="./lib/jquery/jquery.min.js"></script>
+    <title>登录/注册</title>
+</head>
+
+<body>
+    <div class="fuwuhao">
+        <h3>登录</h3>
+        <div class="phone" id="phone">
+            <ul>
+                <li></li>
+                <!--<li>+86</li>
+            <li></li>-->
+                <li>
+                    <input type="tel" name="telPhone" id="phoneInput" autocomplete placeholder="请输入电话号码">
+                    <!--<span></span>-->
+                </li>
+                <li class="pass1"></li>
+            </ul>
+        </div>
+        <div class="password">
+            <ul>
+                <li></li>
+                <li><input type="tel" name="telPhone" id="passwordInput" autocomplete placeholder="请输入密码"></li>
+            
+                <li class="pass2"></li>
+            </ul>
+        </div>
+        <div class="form-add">
+            <!--<div id="tip">
+                <span id="x">×</span>
+                <strong></strong>
+            </div>-->
+        </div>
+
+        <!--<div id="mask"></div>-->
+        <button id="login">登录</button>
+        <div class="footer">
+            <a href="./register.html">注册</a>
+            <a href="./retrieve.html">忘记密码?</a>
+            <!--<ul>
+            <li><a href="https://graph.qq.com/oauth/show?which=Login"><img src="./img/qq.png" alt=""></a></li>
+            <li><a href=""><img src="./img/weixin.png" alt=""></a></li>
+            <li><a href=""><img src="./img/xinlang.png" alt=""></a></li>
+        </ul>-->
+
+        </div>
+    </div>
+    <script>
+        function yincang() {
+            $(".form-add").hide();
+            // $("#mask").hide();
+        };
+    </script>
+    <script src="./lib/jquery/jquery.js"></script>
+    <!--<script src="./lib/bootstrap/js/bootstrap.js"></script>-->
+    <script src="./js/common/common.js"></script>
+    <script src="./js/common/urlscope.js"></script>
+    <script src="./js/login.js"></script>
+</body>
+
+</html>

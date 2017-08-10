@@ -1,0 +1,235 @@
+.protect {
+    width: 50%;
+    text-align: center;
+}
+
+.font {
+    font-size: 20px;
+    color: black;
+    font-weight: bolder;
+}
+.city{
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    color: black;
+    border-bottom: 1px solid #ddd;
+}
+.city ul li{
+    float: left;
+    width: 14.2%;
+    text-align: center;
+}
+.city ul li:nth-child(1) {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.classify{
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    color: black;
+    border-bottom: 1px solid #ddd;
+}
+.classify ul li{
+    float: left;
+    width: 14.2%;
+    text-align: center;
+}
+.classify ul li:nth-child(1) {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.project{
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    color: black;
+    border-bottom: 1px solid #ddd;
+}
+.project ul li{
+    float: left;
+    /*width: 14.2%;*/
+    text-align: center;
+}
+.project ul li:nth-child(1) {
+    font-weight: bolder;
+    font-size: 20px;
+    width: 14.2%;
+}
+.project ul li:nth-child(2) {
+    width: 14.2%;
+}
+.project ul li:nth-child(3) {
+    width: 23.8%;
+}
+.project ul li:nth-child(4) {
+    width: 23.8%;
+}
+.project ul li:nth-child(5) {
+    width: 23.8%;
+}
+.style{
+    color: #dfa60e;
+}
+.recommen {
+    background-color: #fff;
+}
+
+.recommen>.recommen-list>.media {
+    margin-top: 0px;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+.recommen>.recommen-list>.media>.media-left>img {
+    width: 100px;
+    height: 120px;
+}
+
+.recommen>.recommen-list>.media>.media-body>.name {
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.recommen>.recommen-list>.media>.media-body>.describe {
+    float: left;
+    color: #666;
+    margin-top: 5px;
+    font-size: 14px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.recommen>.recommen-list>.media>.media-body>.price:nth-child(3) {
+    margin-top: 45px;
+    color: #dfa60e;
+    font-size: 20px;
+}
+.recommen>.recommen-list>.media>.media-body>.price:nth-child(4) {
+    margin-top: 10px;
+    color: #dfa60e;
+    font-size: 16px;
+}
+.recommen>.recommen-list>.media>.media-body{
+    position: relative;
+}
+.recommen>.recommen-list>.media>.media-body>a {
+    height: 40px;
+    /*line-height: 40px;*/
+    bottom: 0;
+    right: 0;
+    background: #dfa60e;
+    font-size: 16px;
+    font-weight: bolder;
+    color: white;
+    position: absolute;
+}
+.btnAdd {
+  width: 110px;
+  height: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.form-item {
+  height: 100%;
+  position: relative;
+  padding-left: 80px;
+  padding-right: 10px;
+  margin-bottom: 34px;
+  line-height: 36px;
+}
+
+.form-item > .lb {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 80px;
+  text-align: right;
+}
+
+.form-item > .txt {
+  width: 250px;
+  height: 30px;
+}
+
+.mask {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.15;
+  display: none;
+}
+
+.form-add {
+  top: 30%;
+  left: 50%;
+  margin-left: -197px;
+  padding-bottom: 20px;
+  background: #fff;
+  display: none;
+  position: fixed;
+}
+
+.form-add-title {
+  background-color: #f7f7f7;
+  border-width: 1px 1px 0 1px;
+  border-bottom: 0;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.form-add-title span {
+  width: auto;
+  height: 40px;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(102, 102, 102);
+  text-indent: 12px;
+  padding: 8px 0px 10px;
+  margin-right: 10px;
+  display: block;
+  overflow: hidden;
+  text-align: left;
+}
+
+.form-add-title div {
+  width: 16px;
+  height: 20px;
+  position: absolute;
+  right: 10px;
+  top: 6px;
+  font-size: 30px;
+  line-height: 16px;
+  cursor: pointer;
+}
+
+.form-submit {
+  text-align: center;
+}
+
+.form-submit input {
+  width: 100px;
+  height: 32px;
+  background: #dfa60e;
+}
+.pop_area {
+    height: 85px;
+    padding: 5px 9px 3px;
+    width: 300px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #333;
+    margin: 0;
+    border: 1px solid gray;
+}
